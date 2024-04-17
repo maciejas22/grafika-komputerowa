@@ -65,7 +65,7 @@ class Cube:
 
         return np.array(edges)
 
-    def read(file_name):
+    def read(self, file_name):
         with open(file_name, "r") as file:
             lines = file.readlines()
 

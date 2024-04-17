@@ -19,10 +19,10 @@ pygame.display.set_caption("Camera")
 screen = pygame.display.set_mode(tuple(SCREEN_SIZE))
 
 cubes = [
-    Cube.read("cubes/1"),
-    Cube.read("cubes/2"),
-    Cube.read("cubes/3"),
-    Cube.read("cubes/4"),
+    Cube().read("cubes/1"),
+    Cube().read("cubes/2"),
+    Cube().read("cubes/3"),
+    Cube().read("cubes/4"),
 ]
 
 focal = 200
